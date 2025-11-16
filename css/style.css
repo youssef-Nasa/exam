@@ -2,6 +2,8 @@
     --main-color: #7D00DD;
 }
 
+
+
 /*global*/
 .bg-gray {
     background-color: rgba(128, 128, 128, 0.098);
@@ -1185,5 +1187,14 @@ footer .up {
     .effect2:hover {
         background-color: #f5f3ff;
         border-radius: 8px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    main,
+    header,
+    nav {
+        overflow: hidden;
     }
 }
